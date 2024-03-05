@@ -1,0 +1,24 @@
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.display {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.keys button {
+    padding: 10px;
+    margin: 5px;
+}
